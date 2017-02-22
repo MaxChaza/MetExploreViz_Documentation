@@ -64,18 +64,29 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
-                    <img alt="MetExploreViz logo" src="images/metExploreViz_Logo.png" width="120" height="120">
-                    MetExploreViz
+                    <div class="row hidden-lg hidden-md" style="padding-bottom:20px; border-bottom:1px solid #ddd;">
+                            <img alt="MetExploreViz logo" class="img-responsive" src="images/metExploreViz_Logo.png" width="120" height="120">
+                            MetExploreViz
+                    </div>
+                    <div class="row hidden-sm hidden-xs" style="padding-bottom:20px; border-bottom:1px solid #ddd;">
+                            <img alt="MetExploreViz logo" src="images/metExploreViz_Logo.png" width="120" height="120">                          
+                            MetExploreViz
+                    </div>
+                    
                 </h1>
             </div>
             <div class="col-lg-12">
-                <div class="row hidden-sm hidden-md" style="padding-bottom:20px; border-bottom:1px solid #ddd;">
-                    <div class="col-md-12" >
-                        <a target="_blank" href="http://phenomenal-h2020.eu/home/"><img class="img-responsive" height="100px" src="images/contact/phenomenalLogo.png" alt=""></a>
-                        <a target="_blank" href="http://www.toulouse.inra.fr/"><img class="img-responsive" height="100px" src="images/contact/inraLogo.jpg" alt=""></a>
-                        <a target="_blank" href="https://www6.toulouse.inra.fr/toxalim"><img class="img-responsive" height="100px" src="images/contact/toxalimLogo.jpg" alt=""></a>
-                        <a target="_blank" href="https://www6.toulouse.inra.fr/toxalim/Equipes-Recherche/E2-MeX-Metabolisme-des-xenobiotiques"><img class="img-responsive" height="100px" src="images/contact/mexLogo.png" alt=""></a>
-                    </div>
+                <div class="row hidden-lg hidden-md" style="padding-bottom:20px; border-bottom:1px solid #ddd;">
+                        <a target="_blank" href="http://phenomenal-h2020.eu/home/"><img class="img-responsive" src="images/contact/phenomenalLogo.png" alt=""></a>
+                        <a target="_blank" href="http://www.toulouse.inra.fr/"><img class="img-responsive" src="images/contact/inraLogo.jpg" alt=""></a>
+                        <a target="_blank" href="https://www6.toulouse.inra.fr/toxalim"><img class="img-responsive" src="images/contact/toxalimLogo.jpg" alt=""></a>
+                        <a target="_blank" href="https://www6.toulouse.inra.fr/toxalim/Equipes-Recherche/E2-MeX-Metabolisme-des-xenobiotiques"><img class="img-responsive" src="images/contact/mexLogo.png" alt=""></a>
+                </div>
+                <div class="row hidden-sm hidden-xs" style="padding-bottom:20px; border-bottom:1px solid #ddd;">
+                        <a target="_blank" href="http://phenomenal-h2020.eu/home/"><img height="100px" src="images/contact/phenomenalLogo.png" alt=""></a>
+                        <a target="_blank" href="http://www.toulouse.inra.fr/"><img height="100px" src="images/contact/inraLogo.jpg" alt=""></a>
+                        <a target="_blank" href="https://www6.toulouse.inra.fr/toxalim"><img height="100px" src="images/contact/toxalimLogo.jpg" alt=""></a>
+                        <a target="_blank" href="https://www6.toulouse.inra.fr/toxalim/Equipes-Recherche/E2-MeX-Metabolisme-des-xenobiotiques"><img height="100px" src="images/contact/mexLogo.png" alt=""></a>
                 </div>
                 <h4 style="padding-top:20px; padding-bottom:20px;">MetExploreViz provides an interactive visualisation of metabolic networks in order to mine metabolomics (and other “omics”) data. </h4>
             </div>
@@ -84,7 +95,7 @@
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i> MetExploreViz v1</h4>
+                        <h4><i class="fa fa-fw fa-check"></i> MetExploreViz v1.2</h4>
                     </div>
                     <div class="panel-body">
                         <p> 
@@ -92,7 +103,7 @@
                             Some features permits to map omics data, find paths or change layout on this visualization.  
                         </p>
 
-                        <a href="files/metExploreViz.zip"  class="btn btn-default">Download</a>
+                        <a href="versions.php"  class="btn btn-default">Download</a>
                     </div>
                 </div>
             </div>

@@ -72,10 +72,19 @@
         <!-- /.row -->
         <div class="row">
             <div class="col-md-12" >
-                <a target="_blank" href="http://www.toulouse.inra.fr/"><img height="100px"src="images/contact/inraLogo.jpg" alt=""></a>
-                <a target="_blank" href="https://www6.toulouse.inra.fr/toxalim/Equipes-Recherche/E2-MeX-Metabolisme-des-xenobiotiques"><img height="100px"src="images/contact/mexLogo.png" alt=""></a>
-                <a target="_blank" href="https://www6.toulouse.inra.fr/toxalim"><img height="100px"src="images/contact/toxalimLogo.jpg" alt=""></a>
-                <a target="_blank" href="http://phenomenal-h2020.eu/home/"><img height="100px"src="images/contact/phenomenalLogo.png" alt=""></a>
+                <div class="row hidden-lg hidden-md" style="padding-bottom:20px; border-bottom:1px solid #ddd;">
+                        <a target="_blank" href="http://phenomenal-h2020.eu/home/"><img class="img-responsive" src="images/contact/phenomenalLogo.png" alt=""></a>
+                        <a target="_blank" href="http://www.toulouse.inra.fr/"><img class="img-responsive" src="images/contact/inraLogo.jpg" alt=""></a>
+                        <a target="_blank" href="https://www6.toulouse.inra.fr/toxalim"><img class="img-responsive" src="images/contact/toxalimLogo.jpg" alt=""></a>
+                        <a target="_blank" href="https://www6.toulouse.inra.fr/toxalim/Equipes-Recherche/E2-MeX-Metabolisme-des-xenobiotiques"><img class="img-responsive" src="images/contact/mexLogo.png" alt=""></a>
+                </div>
+                <div class="row hidden-sm hidden-xs" style="padding-bottom:20px; border-bottom:1px solid #ddd;">
+                        <a target="_blank" href="http://phenomenal-h2020.eu/home/"><img height="100px" src="images/contact/phenomenalLogo.png" alt=""></a>
+                        <a target="_blank" href="http://www.toulouse.inra.fr/"><img height="100px" src="images/contact/inraLogo.jpg" alt=""></a>
+                        <a target="_blank" href="https://www6.toulouse.inra.fr/toxalim"><img height="100px" src="images/contact/toxalimLogo.jpg" alt=""></a>
+                        <a target="_blank" href="https://www6.toulouse.inra.fr/toxalim/Equipes-Recherche/E2-MeX-Metabolisme-des-xenobiotiques"><img height="100px" src="images/contact/mexLogo.png" alt=""></a>
+                </div>
+                
             </div>
         </div>
         <!-- Contact Form -->

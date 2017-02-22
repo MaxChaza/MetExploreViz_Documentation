@@ -86,12 +86,7 @@
                 <div class='titleSection' id="title1">    
                     <h1>Download</h1>
                     <p>
-                        Download the latest version here:
-                        </br>
-                            <ul>
-                                <li><a href="files/metExploreViz.zip" >MetExploreViz v1</a></li>
-                            </ul>  
-                        
+                        Download the latest version <a href="http://localhost/doc/versions.php" ><b>here</b></a>.
                         <!-- Or, to link directly to the latest release, copy this snippet: 
 
                         <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>-->

@@ -79,6 +79,14 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">
+                        <a target="_blank" href="http://www.metexplore.fr"><img style="max-height:50px" src="images/contact/MetExploreLogo.png" alt=""></a> MetExplore Team</h2>
+            </div>
             <div class="col-md-4 text-center">
                 <div class="thumbnail">
                     <img width="50%" class="img-responsive" src="images/team/Vinson_MetExplore.png" alt="">

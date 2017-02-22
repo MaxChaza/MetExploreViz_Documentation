@@ -84,6 +84,8 @@
                             <li onclick=this.setActivity><a id="sectionTab" href="#optimization" >Optimization</a></li>
                             <li onclick=this.setActivity><a id="sectionTab" href="#networkcomparison" >Network comparison</a></li>
                             <li onclick=this.setActivity><a id="sectionTab" href="#searchnode" >Search node</a></li>
+                            <li onclick=this.setActivity><a id="sectionTab" href="#setnodename" >Set node name</a></li>
+                            <li onclick=this.setActivity><a id="sectionTab" href="#selectNeighbours" >Select node neighbourg</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -483,34 +485,37 @@
                                 <img class="img-responsive img-portfolio" src="images/userDocumentation/metExploreVizWindowChooseMapping4.png" alt="">
                             </div>
                         </div> 
-                        <p>
-                            For flux values, a gradient from yellow to blue is created and each node color is assigned accordingly and values are assigned to links.
-                        </p>
+                        <div class='subsection' id="flux"> 
+                            <h4>Flux</h4>
+                            <p>
+                                For flux values, a gradient from yellow to blue is created and each node color is assigned accordingly and values are assigned to links.
+                            </p>
 
-                        <div class="row">
-                            <div class="col-md-3" align="right">
-                                Minimum
-                            </div>
-                            <div class="col-md-6" style=
-                            " 
-                                border-radius:4px;
-                                height:20px;
-                                background: yellow; /* For browsers that do not support gradients */
-                                background: -webkit-linear-gradient(left, yellow, blue); /* For Safari 5.1 to 6.0 */
-                                background: -o-linear-gradient(right, yellow, blue); /* For Opera 11.1 to 12.0 */
-                                background: -moz-linear-gradient(right, yellow, blue); /* For Firefox 3.6 to 15 */
-                                background: linear-gradient(to right, yellow, blue); /* Standard syntax */
-                            ">
-                            </div>
-                            <div class="col-md-3">
-                                Maximum
-                            </div>
-                        </div>  
-                        <br/>
-                        <div class="row">
-                            <div class="col-md-offset-1 col-md-10 col-md-offset-1 ">
-                                <img class="img-responsive img-portfolio" src="images/userDocumentation/flux.png" alt="">
-                            </div>
+                            <div class="row">
+                                <div class="col-md-3" align="right">
+                                    Minimum
+                                </div>
+                                <div class="col-md-6" style=
+                                " 
+                                    border-radius:4px;
+                                    height:20px;
+                                    background: yellow; /* For browsers that do not support gradients */
+                                    background: -webkit-linear-gradient(left, yellow, blue); /* For Safari 5.1 to 6.0 */
+                                    background: -o-linear-gradient(right, yellow, blue); /* For Opera 11.1 to 12.0 */
+                                    background: -moz-linear-gradient(right, yellow, blue); /* For Firefox 3.6 to 15 */
+                                    background: linear-gradient(to right, yellow, blue); /* Standard syntax */
+                                ">
+                                </div>
+                                <div class="col-md-3">
+                                    Maximum
+                                </div>
+                            </div>  
+                            <br/>
+                            <div class="row">
+                                <div class="col-md-offset-1 col-md-10 col-md-offset-1 ">
+                                    <img class="img-responsive img-portfolio" src="images/userDocumentation/flux.png" alt="">
+                                </div>
+                            </div> 
                         </div> 
 
                         <p>
@@ -645,6 +650,36 @@
                     <div class="row">
                         <div class="col-md-offset-1 col-md-10 col-md-offset-1 ">
                             <img class="img-responsive img-portfolio" src="images/userDocumentation/metExploreVizWindowSearch.png" alt="">
+                        </div>
+                    </div>
+                </div> 
+                <div class='section' id="setnodename"> 
+                    <h2>Set node name</h2>
+                    <p>
+                        MetExploreViz allows you set node name in visualisation. 
+                    </p>
+                    <p>
+                        To do this right click on a node and select 'Change name' menu.    
+                    </p>
+
+                    <div class="row">
+                        <div class="col-md-offset-1 col-md-10 col-md-offset-1 ">
+                            <img class="img-responsive img-portfolio" src="images/userDocumentation/changeNodeName.png" alt="">
+                        </div>
+                    </div>
+                </div>  
+                <div class='section' id="selectNeighbours"> 
+                    <h2>Set select neighbours</h2>
+                    <p>
+                        MetExploreViz allows you select neighbours of a node in visualisation. 
+                    </p>
+                    <p>
+                        To do this right click on a node and select 'Select neighbours' menu.    
+                    </p>
+
+                    <div class="row">
+                        <div class="col-md-offset-1 col-md-10 col-md-offset-1 ">
+                            <img class="img-responsive img-portfolio" src="images/userDocumentation/selectNeighbours.png" alt="">
                         </div>
                     </div>
                 </div>  

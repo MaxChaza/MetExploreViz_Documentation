@@ -1,5 +1,8 @@
     /* Note: Try to remove the following lines to see the effect of CSS positioning */
-  
+    body{
+        font-family: 'Muli', sans-serif;
+
+    }
     h1{
         padding-bottom:9px;
         border-bottom:1px solid #ddd;
